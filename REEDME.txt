@@ -1,0 +1,11 @@
+To test work:
+
+1) You can initDB with random test values or\and load some data: for now only Auditoriums could be loaded. Test CSV files could be founded in 'samples' folder
+ a) http://localhost:8080/cinema/testinit
+ b) http://localhost:8080/multiUpload or http://localhost:8080/singleUpload or http://localhost:8080/upload
+2) You can show users' tickets :
+ a) http://localhost:8080/user/onatoley@email.com/tickets/list
+ b) http://localhost:8080/user/onatoley@email.com/tickets/list.pdf
+3) You can see errors handling
+
+Sorry for bugs and for not fully done homework. I hadn't enough time for that =(((

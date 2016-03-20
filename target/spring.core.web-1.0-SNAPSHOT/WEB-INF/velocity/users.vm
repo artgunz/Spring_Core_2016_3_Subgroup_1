@@ -1,0 +1,15 @@
+<h2>Tickets list for $userEmail</h2>
+<table border="1">
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>BirthDate</th>
+    </tr>
+    #foreach($user in $users)
+        <tr>
+            <td>$user.name</td>
+            <td>$user.email</td>
+            <td>$user.birthDate</td>
+        </tr>
+    #end
+</table>

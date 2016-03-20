@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [21/Mar/2016:00:08:30 +0200] "GET /upload HTTP/1.1" 200 609 http-bio-8080-exec-1 967
+0:0:0:0:0:0:0:1 - - [21/Mar/2016:00:08:35 +0200] "GET /multiUpload HTTP/1.1" 200 1428 http-bio-8080-exec-2 355
+0:0:0:0:0:0:0:1 - - [21/Mar/2016:00:08:48 +0200] "POST /multiUpload HTTP/1.1" 200 1125 http-bio-8080-exec-3 611
+0:0:0:0:0:0:0:1 - - [21/Mar/2016:00:09:00 +0200] "GET /cinema/testinit HTTP/1.1" 200 572 http-bio-8080-exec-6 3073
+0:0:0:0:0:0:0:1 - - [21/Mar/2016:00:09:03 +0200] "GET /user/onatoley@email.com/tickets/list HTTP/1.1" 200 5755 http-bio-8080-exec-7 30
+0:0:0:0:0:0:0:1 - - [21/Mar/2016:00:09:13 +0200] "GET /user/onatoley@email.com/tickets/list.pdf HTTP/1.1" 200 2260 http-bio-8080-exec-8 259
+0:0:0:0:0:0:0:1 - - [21/Mar/2016:00:12:58 +0200] "GET /multiUpload HTTP/1.1" 200 1428 http-bio-8080-exec-10 5
+0:0:0:0:0:0:0:1 - - [21/Mar/2016:00:13:03 +0200] "GET /upload HTTP/1.1" 200 609 http-bio-8080-exec-10 5

@@ -1,0 +1,23 @@
+<h2>Tickets list for $userEmail</h2>
+<table border="1">
+    <tr>
+        <th>User</th>
+        <th>Event</th>
+        <th>Seat</th>
+        <th>Auditorium</th>
+        <th>Price</th>
+    </tr>
+    #foreach($ticket in $tickets)
+        <tr>
+            <td>$ticket.user.name | $ticket.user.email</td>
+            <td>$ticket.showEvent.event.name</td>
+            <td>$ticket.seat.id</td>
+            <td>$ticket.showEvent.auditorium.name</td>
+            <td>$ticket.price.value</td>
+        </tr>
+    #end
+</table>
+
+<div align="center">
+    <h3><a href="/user/$userEmail/tickets/list.pdf">Download PDF Document</a></h3>
+</div>
